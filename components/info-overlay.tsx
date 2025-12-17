@@ -420,7 +420,7 @@ Please let me know the next steps for payment and activation.
 
 Thank you!`
                           );
-                          const mailtoUrl = https://mail.google.com/mail/?view=cm&fs=1&to=taizun8@gmail.com&su=${subject}&body=${body} ;
+                          const mailtoUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=taizun8@gmail.com&su=${subject}&body=${body}`;
                           window.open(mailtoUrl, '_blank');
                         }}
                         className="bg-black hover:bg-gray-800 border border-black rounded-full px-4 py-1 text-xs font-medium text-white transition-colors flex items-center justify-center"
